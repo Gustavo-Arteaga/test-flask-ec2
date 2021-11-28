@@ -1,10 +1,11 @@
 from flask import Blueprint, render_template, request, flash, redirect, url_for, Flask,jsonify,redirect, make_response
 import os
+from flask_cors import CORS
 
 
 
 app = Flask(__name__)
-
+CORS(app)
 
 @app.route("/urlunprocessed",  methods = ['POST'])
 
