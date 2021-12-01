@@ -23,7 +23,7 @@ def dateJS():
         
         response = [
           {
-          "url_img_processed": "https://bucket-power-dragon-test.s3.us-east-2.amazonaws.com/processed/ATT46_Photo9.jpg"
+          "url_img_processed": "https://img-processed.s3.us-east-2.amazonaws.com/ATT217-Photo3.jpg"
           },
           {
             "HP": "5",
